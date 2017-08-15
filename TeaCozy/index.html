@@ -2,16 +2,106 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
     <title>Tea Cozy</title>
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
 
-    <!-- Header -->
+    <!-- Navigation -->
     <header>
-      <div>
-        <span>Tea Cozy</span>
-      </div>
+      <nav class="nav flex-container position-fixed content-space-between items-center">
+        <div class="logo">
+          <img src="./resources/images/img-tea-cozy-logo.png" alt="Tea Cozy logo">
+        </div>
+        <div class="links">
+          <ul>
+            <li class="inline-container"><a href="#mission">Mission</a></li>
+            <li class="inline-container"><a href="#featuredtea">Featured Tea</a></li>
+            <li class="inline-container"><a href="#locations">Locations</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
+
+    <main>
+
+      <!-- Mission -->
+      <div class="mission flex-container items-center" id="mission">
+        <div class="blackbar flex-container content-center">
+          <div class="missionstatement content-center items-center text-center">
+            <h2>Our Mission</h2>
+            <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured -->
+      <section>
+        <div class="featured flex-container flex-wrap content-space-between" id="featuredtea">
+          <div class="month text-center">
+            <h2>Tea of the Month</h2>
+            <h4>What's Steeping at The Tea Cozy?</h4>
+          </div>
+          <div class="featurebox text-center">
+            <img src="./resources/images/img-berryblitz.jpg" alt="teacup with berries" width="300px" height="200px">
+            <h4>Fall Berry Blitz Tea</h4>
+          </div>
+          <div class="featurebox text-center">
+            <img src="./resources/images/img-spiced-rum.jpg" alt="crate with tea" width="300px" height="200px">
+            <h4>Spiced Rum Tea</h4>
+          </div>
+          <div class="featurebox text-center">
+            <img src="./resources/images/img-donut.jpg" alt="donut on a plate" width="300px" height="200px">
+            <h4>Seasonal Donuts</h4>
+          </div>
+          <div class="featurebox text-center">
+            <img src="./resources/images/img-myrtle-ave.jpg" alt="teacup with teabag" width="300px" height="200px">
+            <h4>Myrtle Ave Tea</h4>
+          </div>
+          <div class="featurebox text-center">
+            <img src="./resources/images/img-bedford-bizarre.jpg" alt="teacup and sugar" width="300px" height="200px">
+            <h4>Bedford Bizarre Tea</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- Locations -->
+      <section>
+        <div class="locations flex-container flex-wrap content-space-around items-center" id="locations">
+          <div class="txtbox text-center">
+            <h2>Locations</h2>
+          </div>
+          <div class="locationbox flex-container flex-column-wrap content-space-around items-center">
+            <h3>Downtown</h3>
+            <p>384 West 4th St</p>
+            <p>Suite 108</p>
+            <p>Portland, Maine</p>
+          </div>
+          <div class="locationbox flex-container flex-column-wrap content-space-around items-center">
+            <h3>East Bayside</h3>
+            <p>3433 Phisherman's Avenue</p>
+            <p>(Northwest Corner)</p>
+            <p>Portland, Maine</p>
+          </div>
+          <div class="locationbox flex-container flex-column-wrap content-space-around items-center">
+            <h3>Oakdale</h3>
+            <p>515 Crescent Avenue</p>
+            <p>Second Floor</p>
+            <p>Portland, Maine</p>
+          </div>
+        </div>
+        <div class="contact text-center">
+          <h2>The Tea Cozy</h2>
+          <h5>contact@theteacozy.com</h5>
+          <h5>917-555-8904
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-left">
+      <p>copyright The Tea Cozy 2017</p>
+    </footer>
+
   </body>
 </html>
